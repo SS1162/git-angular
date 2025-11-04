@@ -1,0 +1,37 @@
+.calc{
+    display: flex;
+    flex-direction: column;
+}
+.buttoms{
+ display: flex;
+flex-direction: column;
+}
+.simpale_buttom{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+.action{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.buttomaction{
+    background-color: aqua;
+}
+.worth{
+    display: grid;
+grid-template-columns: 1fr;
+}
+.buttomWorth{
+    background-color: aqua;
+}
+.screen{
+       display: grid;
+grid-template-columns: 1fr;
+height: 200%;
+
+}
+.number{
+ 
+   border: solid 2px aqua; 
+}

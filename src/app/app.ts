@@ -1,10 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Wellcome } from './components/wellcome/wellcome';
+import { Calacurtor } from './components/calacurtor/calacurtor';
+import { CalcSignal } from './components/calc-signal/calc-signal';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Wellcome],
+  standalone:true,
+  imports: [RouterOutlet, Wellcome,Calacurtor,CalcSignal],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

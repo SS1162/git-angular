@@ -1,0 +1,32 @@
+<p>the resulte is:{{sum}}</p>
+<div class="calc">
+    <div class="screen">
+        <input type="number" class="number" [(ngModel)]="num" >
+    </div>
+    <div class="buttoms">
+        <div class="action">
+            <button class="buttomaction +" (click)="funcPlus()">+</button>
+            <button class="buttomaction -" (click)="funcminus()">-</button>
+            <button class="buttomaction *" (click)="funcmult()">*</button>
+            <button class="buttomaction /" (click)="funcdvide()">/</button>
+        </div>
+        <div class="simpale_buttom">
+            <button class="buttom 1" (click)="addInput(1)">1</button>
+            <button class="buttom 2"(click)="addInput(2)">2</button>
+            <button class="buttom 3"(click)="addInput(3)">3</button>
+            <button class="buttom 4"(click)="addInput(4)">4</button>
+            <button class="buttom 5"(click)="addInput(5)">5</button>
+            <button class="buttom 6"(click)="addInput(6)">6</button>
+            <button class="buttom 7"(click)="addInput(7)">7</button>
+            <button class="buttom 8"(click)="addInput(8)">8</button>
+            <button class="buttom 9"(click)="addInput(9)">9</button>
+            <button class="buttom 0"(click)="addInput(1)">0</button>
+             <button class="buttom c">c</button>
+            <button class="buttom ."(click)="addPoint()">00</button>
+        </div>
+
+        <div class="worth">
+            <button class="buttomWorth ="  (click)="resulte()">=</button>
+        </div>
+    </div>
+</div>
